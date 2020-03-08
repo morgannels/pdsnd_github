@@ -2,7 +2,7 @@
 This was created via fork on March 8, 2020
 
 ### Project Title
-Analyzing Bikehare Data
+Analyzing Motivate Bikehare Data
 
 ### Description
 This project provides an interactive script that allows users to analyze Motivate bikesharing
