@@ -167,7 +167,7 @@ def user_stats(df):
     if 'Gender' in df.columns:
         print('Gender:\n{}\n'.format(df['Gender'].value_counts()))
     else:
-        print('Gender statistics not available.')
+        print('Gender statistics not available for this city.')
 
     # Display earliest, most recent, and most common year of birth, if available in data
     if 'Birth Year' in df.columns:
@@ -175,7 +175,7 @@ def user_stats(df):
         print('Most recent year of birth: {}'.format(int(df['Birth Year'].max())))
         print('Most common year of birth: {}'.format(int(df['Birth Year'].mode()[0])))
     else:
-        print('Birth statistics not available.')
+        print('Birth statistics not available for this city.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -191,7 +191,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to examine another city? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
