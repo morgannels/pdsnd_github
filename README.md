@@ -1,5 +1,5 @@
 ### Date created
-This was created via fork on March 8, 2020
+This project was created via fork on March 8, 2020
 
 ### Project Title
 Analyzing Motivate Bikehare Data
